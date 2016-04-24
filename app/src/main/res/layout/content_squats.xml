@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/squats"
+            android:layout_gravity="center_horizontal" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="455dp"
+        android:text="Sit back and down like you&apos;re sitting into an imaginary chair. Keep your head facing forward as your upper body bends forward a bit. Rather than allowing your back to round, let your lower back arch slightly as you descend."
+        android:id="@+id/textView10"
+        android:textSize="20dp"
+        android:layout_gravity="right|bottom"
+        android:textColor="#010101" />
+
+</LinearLayout>
